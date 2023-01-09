@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/light_blue"
+    tools:context=".about_dheya">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="40dp"
+            app:cardCornerRadius="10dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:src="@drawable/in_description"
+                    android:scaleType="centerCrop"/>
+
+                <TextView android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lines="3"
+                android:text="Yth. \nAtlet Lempar Sendal \nBekasi"
+                android:fontFamily="@font/poppins_medium"/>
+
+                <TextView
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Dengan hormat,"
+                    android:fontFamily="@font/poppins_medium"/>
+
+                <TextView
+                    style="@style/paragraph_about_dheya"
+                    android:text="@string/about_dhea_paragraph1"
+                    android:justificationMode="inter_word"
+                    android:layout_marginTop="3dp"/>
+
+                <TextView
+                    style="@style/paragraph_about_dheya"
+                    android:text="@string/about_dhea_paragraph2"
+                    android:justificationMode="inter_word"
+                    android:layout_marginTop="3dp"/>
+
+                <TextView
+                    style="@style/paragraph_about_dheya"
+                    android:text="@string/about_dhea_paragraph3"
+                    android:justificationMode="inter_word"
+                    android:layout_marginTop="3dp"/>
+
+                <TextView
+                    style="@style/paragraph_about_dheya"
+                    android:layout_marginTop="3dp"
+                    android:lines="2"
+                    android:text="Maaf panjang. \nSemoga lengkap :)"/>
+
+                <TextView
+                    style="@style/paragraph_about_dheya"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:lines="2"
+                    android:text="Salam hangat, \nIday"/>
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+
+</ScrollView>

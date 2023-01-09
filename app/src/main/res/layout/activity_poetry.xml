@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/light_blue"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    tools:context=".poetry">
+
+    <LinearLayout
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="40dp"
+        app:cardCornerRadius="10dp"
+        >
+
+        <LinearLayout
+            android:layout_margin="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- Judul -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Selamat Menua"
+                android:fontFamily="@font/poppins_bold"
+                android:textSize="20dp"
+                android:textAlignment="center"/>
+
+
+            <!-- Isi -->
+
+            <!-- Paragraf 1-->
+            <TextView
+                android:layout_marginTop="10dp"
+                android:text="Selamat menua, Dhea"
+                style="@style/larik_poetry"/>
+
+            <TextView
+                android:text="Panjang Umurnya"
+                style="@style/larik_poetry"/>
+
+            <TextView
+                android:text="Tersenyum hatinya"
+                style="@style/larik_poetry"/>
+
+            <TextView
+                android:text="Yang terbaik bagimu, selamanya"
+                style="@style/larik_poetry"/>
+
+            <!-- Paragraf 2-->
+            <TextView
+                android:layout_marginTop="10dp"
+                android:text="Selamat menua, Dhea (lagi)"
+                style="@style/larik_poetry"/>
+
+            <TextView
+                android:text="Berkatmu, hariku berwarna"
+                style="@style/larik_poetry"/>
+
+            <TextView
+                android:text="Hadirmu, hatiku berbunga-bunga"
+                style="@style/larik_poetry"/>
+
+            <TextView
+                android:text="Tawa serta menyertainya"
+                style="@style/larik_poetry"/>
+
+            <!-- Paragraf 3-->
+            <TextView
+                android:layout_marginTop="10dp"
+                android:text="Selamat menua, Dhea (lagi)"
+                style="@style/larik_poetry" />
+
+            <TextView
+                android:text="Terima kasih karena selalu ada"
+                style="@style/larik_poetry"/>
+
+            <TextView
+                android:text="Baik suka, maupun duka"
+                style="@style/larik_poetry"/>
+
+            <TextView
+                android:text="Terima kasih, setinggi-tingginya"
+                style="@style/larik_poetry"/>
+
+            <!-- Paragraf 4-->
+            <TextView
+                android:layout_marginTop="10dp"
+                android:text="Selamat menua, Dhea (lagi)"
+                style="@style/larik_poetry" />
+
+            <TextView
+                android:text="Tak henti-hentinnya ku berdoa"
+                style="@style/larik_poetry"/>
+
+            <TextView
+                android:text="Agar kau selalu bahagia"
+                style="@style/larik_poetry"/>
+
+            <TextView
+                android:text="Bersamaku (semoga) selamanya"
+                style="@style/larik_poetry"/>
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+    </LinearLayout>
+</RelativeLayout>
